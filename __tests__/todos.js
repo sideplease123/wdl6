@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-empty-function */
-/* eslint-disable @typescript-eslint/no-var-requires */
 const request = require("supertest");
 
 const db = require("../models/index");
