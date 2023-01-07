@@ -11,6 +11,9 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       // define association here
     }
+    static getTodos() {
+      return this.findAll();
+    }
 
     static getAllTodos() {
       return this.findAll({ order: [["id", "ASC"]] });
